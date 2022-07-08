@@ -1,7 +1,6 @@
 # SVToMultires
 convert sv.txt into multires file for visualization at higlass
 
-
 Input.sv.txt format:
 
 chrom1  pos1    chrom2  pos2    ++      +-      -+      --
@@ -12,7 +11,7 @@ chr1    144835000       chr2    91755000        0.001647        3.806e-16       
 .
 .
 
-1. Command: IdentifySV.py Input.sv.txt
+Command 1: IdentifySV.py Input.sv.txt
 
 -> Output.identified.sv.list.txt format:
 
@@ -24,5 +23,6 @@ tandem duplication (->->)       chr21:16125000 & chr21:23390000
 .
 .
 
-2. Command: ToMultires.py
+Command 2: ToMultires.py Output.identified.sv.list.txt
 
+-> Final output file: out.100000000.bedpe.multires, out.10000000.bedpe.multires 
