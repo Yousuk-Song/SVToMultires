@@ -12,9 +12,9 @@ chr1    144835000       chr2    91755000        0.001647        3.806e-16       
 .
 .
 
+1. Command: IdentifySV.py Input.sv.txt
 
-
-Output.identified.sv.list.txt format:
+-> Output.identified.sv.list.txt format:
 
 interchromosomal translocation (5'->3') chr4:93175000 & chr14:66605000
 deletion (3'->5')       chr1:72755000 & chr1:72810000
@@ -24,5 +24,5 @@ tandem duplication (->->)       chr21:16125000 & chr21:23390000
 .
 .
 
-
+2. Command: ToMultires.py
 
